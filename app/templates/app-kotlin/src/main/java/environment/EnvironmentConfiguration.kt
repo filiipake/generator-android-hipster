@@ -9,7 +9,7 @@ import <%= appPackage %>.di.ForApplication;
 import <%= appPackage %>.util.logging.CrashReportingTree; <% } %>
 import javax.inject.Inject
 import javax.inject.Singleton
-import rx.schedulers.Schedulers
+import io.reactivex.schedulers.Schedulers
 
 @Singleton
 class EnvironmentConfiguration @Inject constructor() {
